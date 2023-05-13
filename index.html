@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Service Wala</title>
+	<!-- Font Awesome -->
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+	<!-- MDB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css" rel="stylesheet" />
+
+	<!-- main css  -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/product.css">
+
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- Container wrapper -->
+		<div class="container">
+
+			<!-- Toggle button -->
+			<button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+				data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<!-- Navbar brand -->
+			<div>
+				<a class="navbar-brand mt-2 mt-lg-0" href="#">
+					Service Wala
+				</a>
+			</div>
+
+			<!-- Collapsible wrapper -->
+			<div class="collapse navbar-collapse ps-5" id="navbarSupportedContent">
+
+				<!-- Left links -->
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item  active">
+						<a class="nav-link" href=" #">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href=" #">Food & Beverage</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href=" #">Fashion</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href=" #">Electric & Gadgets</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href=" #">Home Intirer </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href=" #">Car & Accessories</a>
+					</li>
+				</ul>
+				<!-- Left links -->
+			</div>
+			<!-- Collapsible wrapper -->
+
+			<!-- Right elements -->
+			<div class="d-flex align-items-center shopping-cart">
+				<!-- Icon -->
+				<a class=" me-3 fs-4" href="#">
+					<i class="fas fa-shopping-cart"></i>
+				</a>
+
+				<!-- Notifications -->
+				<div class="dropdown">
+					<a class=" me-3 fs-4 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+						role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+						<i class="fas fa-bell"></i>
+						<span class="badge rounded-pill badge-notification bg-danger">1</span>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+						<li>
+							<a class="dropdown-item" href="#">Some news</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">Another news</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Avatar -->
+				<div class="dropdown">
+					<a class="dropdown-toggle fs-4 d-flex align-items-center hidden-arrow" href="#"
+						id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+
+						<i class="fas fa-user-gear"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+						<li>
+							<a class="dropdown-item" href="#">My profile</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">Settings</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Right elements -->
+		</div>
+		<!-- Container wrapper -->
+	</nav>
+	<!-- Navbar -->
+	<!-- slider  -->
+	<div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="./images/slide-01.jpg" class="d-block w-100" alt="Wild Landscape" />
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./images/slide-02.jpg" class="d-block w-100" alt="Camera" />
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./images/slide-06.jpg" class="d-block w-100" alt="Camera" />
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./images/slide-03.jpg" class="d-block w-100" alt="Camera" />
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./images/slide-04.jpg" class="d-block w-100" alt="Camera" />
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./images/slide-05.jpg" class="d-block w-100" alt="Camera" />
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+
+
+		</div>
+		<button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+			data-mdb-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+			data-mdb-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<!-- product banner card -->
+
+	<div class="container">
+		<div class="row g-4 p-5 banner">
+			<div class="col-lg-3 col-md-3 banner-card">
+				<div class="card shadow-sm">
+					<img src="./images/banner-01.jpg" class="banner-img  position-relative" alt="...">
+					<div class="card-body position-absolute p-5">
+						<h3 class="card-title">Men </h3>
+						<p class="card-text">Spring 2023</p>
+					</div>
+					<div class="banner-overlay">
+						<div class="banner-text">
+
+							<p class="border-bottom fw-bold">Shop Now</p>
+							<p class=""></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- <div class="col-lg-3 col-md-4 banner-card">
+				<div class="card shadow-sm">
+					<img src="./images/banner-02.jpg" class="banner-img  position-relative" alt="...">
+					<div class="card-body position-absolute p-5">
+						<h3 class="card-title">Men </h3>
+						<p class="card-text">Spring 2023</p>
+					</div>
+					<div class="banner-overlay">
+						<div class="banner-text">
+
+							<p class="border-bottom fw-bold">Shop Now</p>
+							<p class=""></p>
+						</div>
+					</div>
+
+				</div>
+			</div> -->
+			<div class="col-lg-3 col-md-3 banner-card">
+				<div class="card shadow-sm">
+					<img src="./images/banner-03.jpg" class="banner-img  position-relative" alt="...">
+					<div class="card-body position-absolute p-5">
+						<h3 class="card-title">Accessories </h3>
+						<p class="card-text">New Trend</p>
+					</div>
+					<div class="banner-overlay">
+						<div class="banner-text">
+
+							<p class="border-bottom fw-bold">Shop Now</p>
+							<p class=""></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 banner-card">
+				<div class="card shadow-sm">
+					<img src="./images/banner-06.jpg" class="banner-img  position-relative" alt="...">
+					<div class="card-body position-absolute p-5">
+						<h3 class="card-title">Accessories </h3>
+						<p class="card-text">New Trend</p>
+					</div>
+					<div class="banner-overlay">
+						<div class="banner-text">
+
+							<p class="border-bottom fw-bold">Shop Now</p>
+							<p class=""></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- section Product overview  -->
+	<section>
+		<!-- partial:index.partial.html -->
+		<section class="section-products">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-lg-6">
+						<div class="header">
+							<h1>Product Overview </h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<nav>
+							<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+								<a class="nav-item active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+									role="tab" aria-controls="nav-home" aria-selected="true">All Products</a>
+
+								<a class="nav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+									role="tab" aria-controls="nav-profile" aria-selected="false">Men</a>
+
+								<a class="nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+									role="tab" aria-controls="nav-contact" aria-selected="false">Women</a>
+
+								<a class="nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+									role="tab" aria-controls="nav-contact" aria-selected="false">Kids</a>
+
+								<a class="nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+									role="tab" aria-controls="nav-contact" aria-selected="false">Bag</a>
+
+								<a class="nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+									role="tab" aria-controls="nav-contact" aria-selected="false">Shoes</a>
+
+								<a class="nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+									role="tab" aria-controls="nav-contact" aria-selected="false">Watches</a>
+							</div>
+
+						</nav>
+					</div>
+
+					<!-- search bar  -->
+					<div class="col-lg-2">
+						<div class="search-icon ">
+							<div class="form-group">
+								<input type="text" class="form-control" id="" placeholder="Search">
+
+							</div>
+						</div>
+
+
+
+					</div>
+
+					<!-- <div class="col-lg-2">
+					<div class="filter-price">
+						<h4>Filter By Price</h4>
+						<div class="price-range">
+							<div
+								class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+								<div class="ui-slider-range ui-corner-all ui-widget-header"></div>
+								<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+								<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+							</div>
+							<div class="price-range-amount">
+								<div class="label-input">
+									<span>Range:</span><input type="text" id="amount" name="price">
+								</div>
+								<button class="btn btn-primary">Filter</button>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div> -->
+
+
+					<div class="row pt-5">
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+
+							<div id="product-1" class="single-product">
+								<div class="part-1">
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-old-price">$79.99</h4>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-2" class="single-product">
+								<div class="part-1">
+									<span class="discount">15% off</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-3" class="single-product">
+								<div class="part-1">
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-old-price">$79.99</h4>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-4" class="single-product">
+								<div class="part-1">
+									<span class="new">new</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-5" class="single-product">
+								<div class="part-1">
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-old-price">$79.99</h4>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-6" class="single-product">
+								<div class="part-1">
+									<span class="discount">15% off</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-7" class="single-product">
+								<div class="part-1">
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-old-price">$79.99</h4>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-8" class="single-product">
+								<div class="part-1">
+									<span class="new">new</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-9" class="single-product">
+								<div class="part-1">
+									<span class="new">new</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-10" class="single-product">
+								<div class="part-1">
+									<span class="new">new</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-11" class="single-product">
+								<div class="part-1">
+									<span class="new">new</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+							<div id="product-12" class="single-product">
+								<div class="part-1">
+									<span class="new">new</span>
+									<ul>
+										<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+										<li><a href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a href="#"><i class="fas fa-plus"></i></a></li>
+										<li><a href="#"><i class="fas fa-expand"></i></a></li>
+									</ul>
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Here Product Title</h3>
+									<h4 class="product-price">$49.99</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!-- partial -->
+
+	</section>
+
+
+
+
+	<!-- Footer -->
+	<footer class="text-center text-lg-start bg-dark text-white footer-section pt-4">
+		<!-- Section: Form -->
+		<section class=" mt-5">
+			<form action="">
+				<!--Grid row-->
+				<div class="row d-flex justify-content-center">
+					<!--Grid column-->
+					<div class="col-auto">
+						<p class="pt-2">
+							<strong>Sign up for our newsletter</strong>
+						</p>
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-md-5 col-12">
+						<!-- Email input -->
+						<div class="form-outline form-white mb-4">
+							<input type="email" id="form5Example21" class="form-control" />
+							<label class="form-label" for="form5Example21">Email address</label>
+						</div>
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-auto">
+						<!-- Submit button -->
+						<button type="submit" class="btn btn-outline-light mb-4">
+							Subscribe
+						</button>
+					</div>
+					<!--Grid column-->
+				</div>
+				<!--Grid row-->
+			</form>
+		</section>
+		<!-- Section: Form -->
+		<!-- Section: Social media -->
+		<section class="container text-center  justify-content-center justify-content-lg-between p-4 border-bottom">
+			<!-- Left -->
+			<div class="row">
+				<div class=" col-lg-6 pt-3 ">
+					<p>Get connected with us on social networks:</p>
+				</div>
+
+
+				<!-- Right Section: Social media -->
+				<section class="col-lg-6 social-media">
+					<!-- Facebook -->
+					<a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!"
+						role="button"><i class="fab fa-facebook-f"></i></a>
+
+					<!-- Twitter -->
+					<a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!"
+						role="button"><i class="fab fa-twitter"></i></a>
+
+					<!-- Google -->
+					<a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+						role="button"><i class="fab fa-google"></i></a>
+
+					<!-- Instagram -->
+					<a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+						role="button"><i class="fab fa-instagram"></i></a>
+
+					<!-- Linkedin -->
+					<a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!"
+						role="button"><i class="fab fa-linkedin-in"></i></a>
+				</section>
+				<!-- Section: Social media -->
+			</div>
+		</section>
+		<!-- Section: Social media END -->
+
+		<!-- Section: Links  -->
+		<section class="">
+			<div class="container text-center text-md-start mt-5">
+				<!-- Grid row -->
+				<div class="row mt-3 footer-links">
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+						<!-- Content -->
+						<h6 class="text-uppercase fw-bold mb-4 footer-logo">
+							<i class="fas fa-gem me-3"></i>Service Wala
+						</h6>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus veniam dolore adipisci
+							debitis voluptatem id nam laboriosam laborum excepturi velit!
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">
+							Product Categories
+						</h6>
+						<p>
+							<a href="#!" class="">Food & Beverage</a>
+						</p>
+						<p>
+							<a href="#!" class="">Fashion</a>
+						</p>
+						<p>
+							<a href="#!" class="">Electric & Gadgets</a>
+						</p>
+						<p>
+							<a href="#!" class="">Home Intirer</a>
+						</p>
+						<p>
+							<a href="#!" class="">Car & Accessories</a>
+						</p>
+						<p>
+							<a href="#!" class="">And many more</a>
+						</p>
+
+					</div>
+
+
+
+
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">
+							Help
+						</h6>
+						<p>
+							<a href="#!" class="">Pricing</a>
+						</p>
+						<p>
+							<a href="#!" class="">Settings</a>
+						</p>
+						<p>
+							<a href="#!" class="">Orders</a>
+						</p>
+						<p>
+							<a href="#!" class="">Career</a>
+						</p>
+						<p>
+							<a href="#!" class="">Help</a>
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+						<p><i class="fas fa-home me-3 text-secondary"></i> XYZ, NY 220012, India</p>
+						<p>
+							<i class="fas fa-envelope me-3 text-secondary"></i>
+							info@example.com
+						</p>
+						<p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+						<p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+		</section>
+		<!-- Section: Links  -->
+
+		<!-- Copyright -->
+		<div class="text-center p-3" style="background-color: black;">
+			© 2021 Copyright:
+			<a class=" fw-bold text-light" href="">servicewalla.com</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+	<!-- Footer -->
+
+
+	<!-- ==================== -->
+	<!-- MDB -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"></script>
+</body>
+
+</html>
